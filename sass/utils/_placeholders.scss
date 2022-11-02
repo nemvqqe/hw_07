@@ -10,3 +10,15 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+%section__item {
+  position: relative;
+
+  display: block;
+  width: 370px;
+  height: 294px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

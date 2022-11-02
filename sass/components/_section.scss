@@ -18,27 +18,8 @@
   }
 
   &__item {
-    position: relative;
-
-    display: block;
-    width: 370px;
-    height: 294px;
-
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-
-    &:nth-child(1) {
-      background-image: url(../images/neondesktop.jpg);
-    }
-
-    &:nth-child(2) {
-      background-image: url(../images/phonedesktop.jpg);
-    }
-
-    &:nth-child(3) {
-      background-image: url(../images/rgbdesktop.jpg);
-    }
+    @extend %section__item;
+    @include generateBackground($backgrounds);
   }
 
   &__thumb {
