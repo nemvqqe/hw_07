@@ -21,6 +21,16 @@
   margin-right: 30px;
 }
 
+.client__title, .team__title, .section__title {
+  color: #212121;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -967,15 +977,6 @@ img {
   background-color: #ffffff;
   padding-bottom: 94px;
 }
-.section__title {
-  color: #212121;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
-}
 .section__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1013,15 +1014,6 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.team__title {
-  color: #212121;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
 }
 .team__card {
   background-color: #ffffff;
@@ -1098,15 +1090,6 @@ img {
 .client {
   padding: 94px 0;
   background-color: #ffffff;
-}
-.client__title {
-  color: #212121;
-  font-size: 36px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-align: center;
-  margin-bottom: 50px;
-  margin-top: 0;
 }
 .client__list {
   display: -webkit-box;
