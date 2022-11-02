@@ -1,5 +1,6 @@
 .filter {
   &__list {
+    @extend %list;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;

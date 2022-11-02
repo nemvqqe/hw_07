@@ -44,11 +44,13 @@
   }
 
   &__list {
+    @extend %list;
     display: flex;
     margin: 0 auto;
   }
 
   &__social-list {
+    @extend %list;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;

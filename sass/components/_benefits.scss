@@ -4,6 +4,7 @@
   padding-bottom: 94px;
 
   &__list {
+    @extend %list;
     display: flex;
   }
 

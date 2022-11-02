@@ -1,6 +1,10 @@
 .address {
   margin-top: 20px;
 
+  &__list {
+    @extend %list;
+  }
+
   &__item {
     margin-top: 9px;
   }

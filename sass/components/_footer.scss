@@ -3,6 +3,7 @@
   padding: 60px 0;
 
   .container {
+    @extend %container;
     display: flex;
   }
 }
